@@ -12,7 +12,7 @@ Vincent
 # Daftar Fitur
 
 # Spesifikasi Aplikasi
-IDE : Android Studio
+IDE : Android Studio <br>
 Bahasa Pemrograman : Java <br>
 minSdkVersion : 21 <br>
 targetSdkVersion : 28 <br>
