@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "618907616926",
+    "firebase_url": "https://k3l-umn.firebaseio.com",
+    "project_id": "k3l-umn",
+    "storage_bucket": "k3l-umn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618907616926:android:183859b4da04f6f43d5d8f",
+        "android_client_info": {
+          "package_name": "umn.ac.id.uas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618907616926-c90pfk3kfttqsl9hid962ruq1180ev5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "umn.ac.id.uas",
+            "certificate_hash": "243470fd4a5af9891f93859b942c7caa0b378d16"
+          }
+        },
+        {
+          "client_id": "618907616926-hlms3ah2gmfurn5k6o7o4atp8gd7f6j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "umn.ac.id.uas",
+            "certificate_hash": "67f9b3b06b329f32424b8dc2cecf4a6aa417f7c2"
+          }
+        },
+        {
+          "client_id": "618907616926-d37l2ln0re8h461m9emn1hs0hlbqedts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1fhk5VjEqkh2MqQIIzctaCW8VDiX9e_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618907616926-d37l2ln0re8h461m9emn1hs0hlbqedts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

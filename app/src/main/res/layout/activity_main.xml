@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainContent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:layout_margin="5dp">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/livingwall">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Incident Report Form"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ShowImageView"
+                android:layout_width="400dp"
+                android:adjustViewBounds="true"
+                android:layout_centerInParent="true"
+                android:layout_height="400dp"
+                android:layout_below="@+id/textview"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/notfound"
+                android:minWidth="320dp"
+                android:minHeight="320dp"
+                android:maxHeight="320dp"
+                android:maxWidth="320dp" />
+
+            <Button
+                android:id="@+id/ButtonChooseImage"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ShowImageView"
+                android:layout_alignParentEnd="false"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="Choose Image" />
+            //Description
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="320dp"
+                android:layout_height="28dp"
+                android:layout_below="@+id/ButtonChooseImage"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Description"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="320dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc"
+                android:layout_marginTop="-2dp"
+                android:gravity="left"
+                android:hint="Explain the problem.." />
+            //Location
+            <TextView
+                android:id="@+id/loc"
+                android:layout_width="320dp"
+                android:layout_height="28dp"
+                android:layout_below="@+id/description"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Location"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="320dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loc"
+                android:layout_marginTop="-2dp"
+                android:gravity="left"
+                android:hint="Describe the location.." />
+            --//
+            //Phone Number
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="320dp"
+                android:layout_height="28dp"
+                android:layout_below="@+id/location"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Phone Number"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="320dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/number"
+                android:layout_marginTop="-2dp"
+                android:gravity="left"
+                android:hint="Insert your phone number.." />
+            --//
+            <Button
+                android:id="@+id/ButtonUploadImage"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="Upload report" />
+
+            <Button
+                android:id="@+id/ButtonPindah"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ButtonUploadImage"
+                android:layout_centerInParent="true"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="Print Report" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
